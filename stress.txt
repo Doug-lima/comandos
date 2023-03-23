@@ -1,0 +1,5 @@
+[entrar com usuario root]
+sudo su -
+
+[instalar pacotes]
+sudo amazon-linux-extras install epel -y

@@ -1,0 +1,6 @@
+
+seguir o passo a passo
+
+https://aws.amazon.com/pt/getting-started/guides/deploy-webapp-amplify/module-one/
+
+no final npm start

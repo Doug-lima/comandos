@@ -1,0 +1,9 @@
+aws s3 cp c:/teste s3://backup-file-server-leviticus --storage-class DEEP_ARCHIVE
+
+          [LOCAL PARA UPPAR]   [BUCKT S3]                     
+aws s3 cp d:/PA/teste s3://backup-file-server-leviticus/PA --recursive --storage-class DEEP_ARCHIVE
+
+
+PA >> 1.5 TB 300.563 ARQUIVOS
+
+Artes>> 1.83 TB 199.751 Arquivos

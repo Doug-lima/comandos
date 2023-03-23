@@ -1,0 +1,13 @@
+
+instalar o apache no linux
+
+sudo yum install httpd
+
+habilitar apache
+
+sudo systemctl enable httpd.service
+
+iniciar serviço do apache
+
+sudo systemctl start httpd.service 
+

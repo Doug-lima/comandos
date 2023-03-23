@@ -1,0 +1,49 @@
+
+CRIANDO REPOSITÓRIO PELO GITHUB
+
+Criar o repositório no Github e inserir comando abaixo no Git
+
+git clone --copiar repositorio remoto--
+
+------------------------------------------------------------------------------------------------------
+
+CRIANDO REPOSITÓRIO LOCAL PELO GIT
+
+git init -- Criar repositorio --
+
+git branch -M main -- trocar Master para Main--
+
+git branch (nome) --criar branch--
+
+------------------------------------------------------------------------------------------------------
+
+COMANDOS GIT
+
+git status --git addcomo está o repositório--
+
+git add -- adiciona arquivo um por um para a area de preparação--
+
+git add . -- adiciona todos os arquivos para a area de preparação --
+
+git commit -m " mensagem "  --pega os arquicos da area do git add e insere para o repositorio -- 
+
+git log -- historios de commit --
+
+git push origi(nome da brach) -- "empurrar" arquivos para o repositorio  --
+
+git pull origin(nome da branch >> origin main) -- "puxar" arquivos do repositorio  --
+
+git branch -- ver branchs -- 
+
+git checkout (nome) -- trocar de branch --
+
+git merge (nome da branch que deseja vir as alterações) -- mesclar alterações--
+
+----------------------------------------------------------------------------------------------------------
+
+Configurar projeto para o Github
+
+git config --global user.email"(email do github)"
+
+git config --global user.name"(nome do usuario github)"
+

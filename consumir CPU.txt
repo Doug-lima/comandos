@@ -1,0 +1,37 @@
+
+
+Estressa auto scaling
+
+--------------------
+Acessar maquina EC2
+
+ssh -i "xpe-key-ec2.pem" ec2-user@3.228.217.126 (ip da maquina)
+
+---------------------------------
+ver processamento:
+
+TOP
+
+---------------------------------
+
+Stress CPU (Como estressar CPU, instalar aplicativos)
+
+ir até a linha de comando e inserir o comando (loop):
+
+for i in 1 2 3 4;do while : ; do : ; done & done
+
+-----
+
+Matar processos
+
+sudo kill -9 3474 3473 3475 3346 (nome das maquinas)
+
+
+-----------------------
+
+1 - Excluir auto scaling
+
+2 - Load baalancer
+
+3 - G
+
