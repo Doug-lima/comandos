@@ -1,0 +1,16 @@
+
+[inicialzar terraform]
+terraform init
+
+[prepara o "terreno" para aplicar o código]
+terraform plan
+
+[Aplica o código]
+terraform apply
+
+
+[Aplicar o código sem mensagem de confirmação]
+terraform apply --auto-aprove
+
+[Destroir os recursos]
+terraform destroy

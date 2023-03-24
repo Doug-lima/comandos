@@ -1,0 +1,3 @@
+
+[Construir build do arquvio dockerlile na raiz do repositorio]
+docker build -t (repositorio) .

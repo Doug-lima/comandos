@@ -1,0 +1,64 @@
+<atualizar linux>
+sudo apt update -y
+
+<aws ec2 start-instances -- >
+
+[Versão do CLI instalado]
+aws --version
+
+[Inserir credenciais aws do IAM access keys]
+aws configure
+
+[listar buckets]
+aws s3 ls
+
+[]
+ls -alh
+
+[entrar na pasta aws]
+cd .aws/
+
+[onter configurações]
+cat configure
+
+[obter credenciais]
+cat credentials
+
+[Descrever instacias]
+aws ec2 describe-instances
+
+[ligar instacias]
+aws ec2 stat-instances --instancer-ids [id da instancia]
+
+[desligar instacias]
+aws ec2 stop-instances --instancer-ids [id da instancia]
+
+
+[todos os comandos que é possivel fazer]
+aws help
+
+[todos os comando que tem a palavra instance no ec2]
+aws ec2 help | grep instance
+
+------------------------------------------------------
+
+[dar nome as conta aws acessada pelo CLI]
+aws configure --profile outlook
+
+[Inserir credenciais aws do IAM access keys]
+
+
+[acessar perfil]
+export $AWS_PROFILE = [nome do pergil]
+
+[imprimir nome do perfil]
+echo $AWS_PROFILE 
+
+-----------------------------------------------------
+[editar perfil de contas]
+vim config
+
+[sai do vim]
+esc depois :qw ou :q! (sai sem confirmar)
+
+

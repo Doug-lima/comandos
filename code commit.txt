@@ -1,0 +1,13 @@
+
+[Ferar chave publica e privada] 
+ssh-keygen -t rsa
+
+
+[Criar uma nova branch com nome staging]
+git checkout -b staging main
+
+[listar branch]
+git branch --list
+
+[Remove o arquivo]
+rm (nome do arquivo) 
